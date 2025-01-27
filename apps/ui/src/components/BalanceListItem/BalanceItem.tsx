@@ -35,11 +35,11 @@ function TokenBalanceListItem({
         </Text>
       </Box>
 
-      <Flex direction="column" pr="1">
+      <Flex direction="column" pr="1" justify="center">
         <Text align="right">
           {balance} {symbol}
         </Text>
-        <Text align="right">$ {tokenValue}</Text>
+        {tokenValue && <Text align="right">$ {tokenValue}</Text>}
       </Flex>
     </Flex>
   );

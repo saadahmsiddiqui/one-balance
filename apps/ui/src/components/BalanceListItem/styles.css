@@ -1,0 +1,6 @@
+.balanceListItem {
+  padding: 8px;
+  max-width: 400px;
+  background: var(--gray-4);
+  border-radius: 12px;
+}
